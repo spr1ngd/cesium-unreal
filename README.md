@@ -14,7 +14,7 @@ Cesium for Unreal brings the 3D geospatial ecosystem to Unreal Engine. By combin
 
 Have questions? Ask them on the [community forum](https://community.cesium.com).
 
-### :clap: Featured Demos
+### :clap: Featured Demos[developer-setup-linux.md](Documentation/developer-setup-linux.md)
 
 <p>
 <a href="https://github.com/CesiumGS/cesium-unreal-samples"><img src="https://images.prismic.io/cesium/bfa9f768-26eb-4a6f-a427-8e9cecbe16b1_melbourne.jpg" width="48%" /></a>&nbsp;

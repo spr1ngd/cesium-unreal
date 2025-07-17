@@ -5,12 +5,12 @@
 #include "CesiumTileMapRasterOverlay.generated.h"
 
 UENUM(BlueprintType)
-enum class ECesiumTilemapSource
+enum class ECesiumTilemapSource : uint8
 {
     Google = 0,
     ArcGIS = 1,
     GaoDe  = 2,
-    Auto  = -1
+    Auto   = 255
 };
 
 // author : spr1ngd
