@@ -623,7 +623,7 @@ void UCesiumGlobeAnchorComponent::_setCurrentRelativeTransform(
     return;
   }
 
-  USceneComponent* pOwnerRoot = AnchorRootComponent ? AnchorRootComponent.Get() : pOwner->GetRootComponent();
+  USceneComponent* pOwnerRoot = AnchorRootComponent == nullptr ? AnchorRootComponent.Get() : pOwner->GetRootComponent();
   if (!IsValid(pOwnerRoot)) {
     UE_LOG(
         LogCesium,
